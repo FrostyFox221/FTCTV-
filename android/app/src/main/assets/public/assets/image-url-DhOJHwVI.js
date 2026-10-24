@@ -1,0 +1,1 @@
+function n(e){if(!e)return"";if(e.startsWith("/"))return e;try{const t=new URL(e);if(t.hostname.endsWith("telegram.org")||t.hostname.endsWith("api.telegram.org"))return`/api/image-proxy?url=${encodeURIComponent(e)}`}catch{}return e}export{n as g};
