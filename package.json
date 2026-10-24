@@ -1,0 +1,25 @@
+{
+  "name": "ftctv-",
+  "version": "1.0.0",
+  "description": "Android-приложение «Второй экран» для информационно-развлекательного канала FTCTV.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrostyFox221/FTCTV-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrostyFox221/FTCTV-/issues"
+  },
+  "homepage": "https://github.com/FrostyFox221/FTCTV-#readme",
+  "dependencies": {
+    "@capacitor/android": "^8.5.3",
+    "@capacitor/cli": "^8.5.3",
+    "@capacitor/core": "^8.5.3"
+  }
+}
